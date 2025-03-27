@@ -19,16 +19,21 @@ git clone https://github.com/hugobsmixer/reyna-app-back.git
 
 Desde el IDE de su preferencia por favor importe el proyecto maven correspondiente.
 
+## Configuración
+
+Asegurate que la base de datos de sqlite llamada citas.db se encuentre en la carpeta del proyecto. Además en el archivo de configuración application.properties la cadena de conexión debe ser spring.datasource.url=jdbc:sqlite:citas.db
+
 ## Instalación
 
 Desde la terminal del proyecto:
 
 Ejecuta el comando mvn clean
+
 Ejecuta el comando mvn install
 
 ## Ejecución
 
-Utiliza el comando mvn spring-boot:run
+Ejecuta el comando mvn spring-boot:run
 
 ## Pruebas de endpoints
 
